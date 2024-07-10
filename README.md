@@ -7,19 +7,33 @@ Seller Home Page:
 
 Designed according to UX specifications.
 Includes a login element integrated into the homepage layout.
+
+
 Property Listing Form:
 
 Implements a multi-section form for property details:
+
 Property Details: Includes "Property For", "Property Type", and additional customizable inputs.
+
 Property Location: Features a functional map and property address input.
+
 Property Features and Amenities: Allows selection of property features and amenities.
+
 Property Price Details: Includes inputs for property pricing.
+
 Property Photos: Enables uploading property photos.
+
+
 Property Preview Page:
 
+
 Displays a preview of the property listing based on entered details.
+
 Ensures that all features and amenities selected in the form are accurately reflected.
+
+
 Setup Instructions:
+
 Clone the Repository:
 
 
