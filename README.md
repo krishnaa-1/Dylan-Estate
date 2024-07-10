@@ -1,6 +1,8 @@
 This project implements a Real Estate Property Management System using React.js. It includes features for creating property listings, managing property details, and previewing listings before submission.
 
 Features Implemented:
+
+
 Seller Home Page:
 
 Designed according to UX specifications.
@@ -21,8 +23,8 @@ Setup Instructions:
 Clone the Repository:
 
 
-git clone https://github.com/yourusername/real-estate-management-system.git
-cd real-estate-management-system
+git clone https://github.com/krishnaa-1/Dylan-Estate.git
+cd Dylan-Estate
 
 
 Install Dependencies:
