@@ -1,0 +1,63 @@
+.shopping-center-container {
+  width: 35px;
+  height: 34px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.cctv-camera {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.cctv-camera-wrapper {
+  align-self: stretch;
+  height: 17px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.shopping-center-container-parent {
+  align-self: stretch;
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-base) 0;
+}
+.checkbox-inner {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--neutral-1);
+  border: 0.8px solid var(--color-gray-200);
+  box-sizing: border-box;
+}
+.checkbox2 {
+  width: 26px;
+  height: 26px;
+  position: relative;
+}
+.instance-parent {
+  height: 138px;
+  width: 135px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--body-regular-size);
+  color: var(--grey-text-2);
+  font-family: var(--font-inter);
+}

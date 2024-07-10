@@ -1,0 +1,32 @@
+.buyersrenters-dashboard1,
+.nav-bars-group {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.nav-bars-group {
+  width: 1440px;
+  box-shadow: 0 4px 4px rgba(68, 51, 35, 0.2);
+  background-color: var(--main-blue);
+  flex-direction: column;
+  padding: 0 0 var(--padding-243xl);
+  box-sizing: border-box;
+  gap: var(--gap-37xl);
+  max-width: 100%;
+}
+.buyersrenters-dashboard1 {
+  position: relative;
+  background-color: var(--neutral-1);
+  width: 100%;
+  overflow: hidden;
+  flex-direction: row;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 725px) {
+  .nav-bars-group {
+    gap: var(--gap-9xl);
+    padding-bottom: var(--padding-151xl);
+    box-sizing: border-box;
+  }
+}

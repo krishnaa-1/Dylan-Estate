@@ -1,0 +1,684 @@
+.explore-neighborhood {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.neighborhood-content-child {
+  height: 31.5px;
+  width: 25px;
+  position: relative;
+}
+.gokul-village-chs1 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 128px;
+}
+.neighborhood-name-container {
+  flex-direction: column;
+  padding: var(--padding-5xs-3) 0 0;
+}
+.neighborhood-card,
+.neighborhood-content1,
+.neighborhood-name-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.neighborhood-content1 {
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.neighborhood-card {
+  flex-direction: column;
+  padding: var(--padding-10xs-2) 0 0;
+}
+.to {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 25px;
+}
+.secondary-neighborhood-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs-5) 0 0;
+}
+.label39 {
+  position: absolute;
+  top: 2px;
+  left: 10px;
+  letter-spacing: 0.4px;
+  font-weight: 500;
+  display: none;
+}
+.text-value10 {
+  height: 21px;
+  position: relative;
+  letter-spacing: 0.4px;
+  display: inline-block;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.cursor-child8 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-cornflowerblue);
+}
+.cursor10 {
+  height: 18px;
+  width: 1.5px;
+  position: relative;
+  flex-shrink: 0;
+}
+.text-frame10 {
+  position: absolute;
+  top: 13.5px;
+  left: 44px;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.email-icon10,
+.text-field16 {
+  position: absolute;
+  top: 6px;
+  left: 16px;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  display: none;
+}
+.text-field16 {
+  top: 2px;
+  left: 10px;
+  border-radius: var(--br-5xs);
+  background-color: var(--neutral-1);
+  width: 340px;
+  height: 32px;
+}
+.empty-secondary-details {
+  height: 36px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-9xs);
+  background-color: var(--neutral-1);
+  border: 1px solid var(--border-grey);
+  box-sizing: border-box;
+  min-width: 229px;
+  max-width: 100%;
+  color: var(--color-gray-400);
+  font-family: var(--font-poppins);
+}
+.view-properties9 {
+  position: relative;
+  display: inline-block;
+  min-width: 47px;
+}
+.buttons9 {
+  border-radius: var(--br-9xs);
+  background: linear-gradient(rgba(79, 79, 79, 0.2), rgba(79, 79, 79, 0.2)),
+    #122b49;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs-5) var(--padding-51xl);
+  color: var(--neutral-1);
+}
+.buttons9:hover {
+  background-color: var(--color-slategray);
+}
+.secondary-neighborhood {
+  flex: 1;
+  gap: var(--gap-2xs);
+  min-width: 382px;
+}
+.location-info,
+.neighborhood-details,
+.secondary-neighborhood {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.neighborhood-details {
+  flex: 1;
+  gap: var(--gap-23xl);
+}
+.location-info {
+  align-self: stretch;
+  padding: 0 var(--padding-11xs);
+  box-sizing: border-box;
+}
+.empty-secondary-neighborhood {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.secondary-neighborhood-content-child {
+  height: 86.7px;
+  width: 86.7px;
+  position: relative;
+  z-index: 1;
+}
+.secondary-neighborhood-content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-33xl);
+}
+.gokul-village-chs2 {
+  position: relative;
+  font-weight: 500;
+  text-shadow: 1px 0 0#fff, 0 1px 0#fff, -1px 0 0#fff, 0-1px 0#fff;
+  z-index: 1;
+}
+.empty-secondary-neighborhood-parent,
+.neighborhood-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.empty-secondary-neighborhood-parent {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: var(--padding-176xl) var(--padding-131xl) var(--padding-75xl-3);
+  position: relative;
+  font-size: var(--font-size-xl);
+  color: var(--color-red);
+}
+.neighborhood-list {
+  flex: 1;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  min-width: 522px;
+  max-width: 100%;
+}
+.transport {
+  position: relative;
+  display: inline-block;
+  min-width: 69px;
+}
+.transport-label {
+  background-color: var(--cream-dark);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-17xl);
+}
+.line-icon {
+  height: 2px;
+  width: 135px;
+  position: relative;
+}
+.component-28-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-10xs) 0 var(--padding-9xs);
+}
+.component-28 {
+  height: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.transport1 {
+  position: relative;
+  display: inline-block;
+  min-width: 68px;
+}
+.component-29 {
+  background-color: var(--cream-dark);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-18xl);
+}
+.component-29:hover,
+.component-30:hover {
+  background-color: var(--color-lightgray-200);
+}
+.transport2 {
+  position: relative;
+  display: inline-block;
+  min-width: 43px;
+}
+.component-30,
+.transport-content,
+.transport-type {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.component-30 {
+  background-color: var(--cream-dark);
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-30xl);
+  z-index: 1;
+  margin-left: -0.1px;
+}
+.transport-content,
+.transport-type {
+  justify-content: center;
+  row-gap: 20px;
+}
+.transport-content {
+  background-color: var(--color-snow-100);
+  justify-content: flex-start;
+}
+.bus-icon {
+  height: 22px;
+  width: 22px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.bus-station {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 78px;
+}
+.bus-stop {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+}
+.bus-distance-icon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.bus-location {
+  width: 348px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.mira-road-police,
+.mira-road-station,
+.mira-road-station1,
+.mira-road-station2 {
+  position: relative;
+}
+.mira-road-station-e-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-base);
+  min-width: 162px;
+}
+.km-2-mins,
+.km-3-mins,
+.km-4-mins,
+.km-6-mins {
+  position: relative;
+  display: inline-block;
+  min-width: 101px;
+}
+.km-6-mins {
+  min-width: 98px;
+}
+.km-3-mins-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-base);
+  min-width: 101px;
+}
+.bus-details,
+.station-details {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.station-details {
+  width: 348px;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.bus-details {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--neutral-1);
+  border: 1px solid var(--border-grey);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-lgi);
+  gap: 10px 201px;
+  min-height: 172px;
+}
+.location-icon1 {
+  height: 22px;
+  width: 22px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.railway-station {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 104px;
+}
+.location-icon-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+}
+.frame-icon26 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frame-parent26 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frame-wrapper9 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--neutral-1);
+  border: 1px solid var(--border-grey);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-lgi) var(--padding-3xs)
+    var(--padding-mid);
+}
+.frame-icon27 {
+  height: 22px;
+  width: 22px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.metro-stations {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 99px;
+}
+.frame-parent28 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+}
+.frame-icon28 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frame-parent27 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frame-wrapper10 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--neutral-1);
+  border: 1px solid var(--border-grey);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-lgi) var(--padding-3xs)
+    var(--padding-mid);
+}
+.frame-icon29 {
+  height: 22px;
+  width: 22px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.airport {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 48px;
+}
+.frame-parent30 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+}
+.frame-icon30 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frame-parent29 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.bus-details-parent,
+.frame-wrapper11 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frame-wrapper11 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--neutral-1);
+  border: 1px solid var(--border-grey);
+  overflow: hidden;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-lgi) var(--padding-3xs)
+    var(--padding-mid);
+}
+.bus-details-parent {
+  flex: 1;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0;
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.location-details5 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-2xl);
+  box-sizing: border-box;
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.component-31,
+.location-details5,
+.neighborhood,
+.neighborhood-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.component-31 {
+  width: 428px;
+  background-color: var(--color-snow-100);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: 0 0 var(--padding-23xl);
+  box-sizing: border-box;
+  min-width: 428px;
+  text-align: center;
+  color: var(--main-blue);
+  font-family: var(--font-merriweather-sans);
+}
+.neighborhood,
+.neighborhood-content {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-mid);
+  font-size: var(--body-regular-size);
+  color: var(--grey-text);
+  font-family: var(--font-inter);
+}
+.neighborhood {
+  box-shadow: 0 1px 16px 4px rgba(108, 100, 93, 0.14);
+  border-radius: var(--br-9xs);
+  background-color: var(--neutral-1);
+  border: 0.5px solid var(--border-grey);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-13xl) var(--padding-16xl) var(--padding-5xl)
+    var(--padding-17xl);
+  gap: var(--gap-17xl);
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-merriweather-sans);
+}
+@media screen and (max-width: 1350px) {
+  .component-31,
+  .neighborhood-details {
+    flex: 1;
+  }
+  .neighborhood-content {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .bus-details {
+    gap: var(--gap-81xl);
+  }
+}
+@media screen and (max-width: 800px) {
+  .explore-neighborhood {
+    font-size: var(--font-size-7xl);
+  }
+  .secondary-neighborhood {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+  .neighborhood-details {
+    flex-wrap: wrap;
+  }
+  .empty-secondary-neighborhood-parent {
+    padding-left: var(--padding-56xl);
+    padding-right: var(--padding-56xl);
+    box-sizing: border-box;
+  }
+  .neighborhood-list {
+    min-width: 100%;
+  }
+  .transport-content {
+    flex-wrap: wrap;
+  }
+  .km-3-mins-parent,
+  .mira-road-station-e-parent {
+    flex: 1;
+  }
+  .station-details {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .bus-details {
+    gap: var(--gap-31xl);
+  }
+  .component-31 {
+    min-width: 100%;
+  }
+  .neighborhood {
+    gap: var(--gap-lg);
+    padding-top: var(--padding-2xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .explore-neighborhood {
+    font-size: var(--font-size-lgi);
+  }
+  .neighborhood-details {
+    gap: var(--gap-2xl);
+  }
+  .gokul-village-chs2 {
+    font-size: var(--font-size-base);
+  }
+  .empty-secondary-neighborhood-parent {
+    padding-top: var(--padding-108xl);
+    padding-bottom: var(--padding-42xl);
+    box-sizing: border-box;
+  }
+  .component-30 {
+    margin-left: 0;
+  }
+  .transport-type {
+    flex-wrap: wrap;
+  }
+  .component-31 {
+    padding-bottom: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+}

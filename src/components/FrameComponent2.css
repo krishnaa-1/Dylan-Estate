@@ -1,0 +1,69 @@
+.instance-child {
+  width: 30.1px;
+  height: 34px;
+  position: relative;
+  object-fit: contain;
+}
+.lift {
+  align-self: stretch;
+  width: 22px;
+  position: relative;
+  display: inline-block;
+}
+.lift-wrapper {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.frame-parent7,
+.frame-wrapper2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.frame-wrapper2 {
+  height: 17px;
+  justify-content: center;
+  padding: 0 var(--padding-37xl);
+  box-sizing: border-box;
+}
+.frame-parent7 {
+  flex: 1;
+  justify-content: space-between;
+  padding: var(--padding-base) 0;
+}
+.checkbox-child1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--neutral-1);
+  border: 0.8px solid var(--color-gray-200);
+  box-sizing: border-box;
+}
+.checkbox3 {
+  width: 26px;
+  height: 26px;
+  position: relative;
+}
+.instance-group {
+  height: 138px;
+  width: 135px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--body-regular-size);
+  color: var(--grey-text-2);
+  font-family: var(--font-inter);
+}

@@ -1,0 +1,112 @@
+.property-on-floor,
+.title19 {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+}
+.title19 {
+  font-weight: 500;
+  min-width: 98px;
+}
+.property-on-floor {
+  font-size: var(--body-regular-size);
+  color: var(--dust-red-5);
+  text-align: right;
+  min-width: 7px;
+}
+.label19 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-5xs);
+  gap: var(--gap-9xs);
+}
+.input-prefix-icon11 {
+  height: 14px;
+  width: 14px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  display: none;
+}
+.placeholder20,
+.placeholder21 {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 9px;
+}
+.placeholder21 {
+  min-width: 43px;
+}
+.placeholder19 {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.input-suffix-icon11 {
+  height: 14px;
+  width: 14px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  display: none;
+}
+.input11 {
+  flex: 1;
+  border-radius: var(--br-11xs);
+  background-color: var(--neutral-1);
+  border: 1px solid var(--neutral-5);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) var(--padding-2xs);
+  gap: var(--gap-9xs);
+}
+.area,
+.input11,
+.property-detail-area-fields {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.area {
+  flex: 1;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25) inset;
+  border-radius: var(--br-11xs);
+  background-color: var(--neutral-1);
+  border: 1px solid var(--grey-text-2);
+  box-sizing: border-box;
+  overflow: hidden;
+  align-items: center;
+  justify-content: flex-start;
+}
+.property-detail-area-fields {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: var(--body-regular-size);
+  color: var(--character-disabled-placeholder-25);
+}
+.property-detail-items {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 247px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--character-title-85);
+  font-family: var(--font-inter);
+}

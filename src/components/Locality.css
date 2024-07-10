@@ -1,0 +1,111 @@
+.about-miraroad {
+  position: relative;
+  font-family: var(--font-merriweather-sans);
+}
+.spread-over-5101 {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.blank-line2 {
+  margin: 0;
+}
+.if-you-are1 {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.blank-line3,
+.never-miss-out1 {
+  margin: 0;
+}
+.show-more2,
+.spread-over-510-container1 {
+  position: relative;
+}
+.show-more2 {
+  text-decoration: underline;
+  display: inline-block;
+  min-width: 88px;
+}
+.description1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  font-size: var(--font-size-base);
+  color: var(--grey-text);
+}
+.view-properties11 {
+  position: relative;
+  display: inline-block;
+  min-width: 98px;
+}
+.buttons11,
+.locality1,
+.neighborhood2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttons11 {
+  border-radius: var(--br-9xs);
+  background: linear-gradient(rgba(79, 79, 79, 0.2), rgba(79, 79, 79, 0.2)),
+    #122b49;
+  flex-direction: row;
+  padding: var(--padding-3xs-5) var(--padding-25xl);
+  white-space: nowrap;
+  font-size: var(--body-regular-size);
+  color: var(--neutral-1);
+}
+.buttons11:hover {
+  background-color: var(--color-slategray);
+}
+.locality1,
+.neighborhood2 {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.neighborhood2 {
+  flex: 1;
+  border-radius: var(--br-9xs);
+  background-color: var(--neutral-1);
+  border: 0.8px solid var(--border-grey);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-21xl) var(--padding-17xl);
+  gap: var(--gap-41xl);
+  flex-shrink: 0;
+}
+.locality1 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-40xl) 0 var(--padding-42xl);
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 800px) {
+  .about-miraroad {
+    font-size: var(--font-size-7xl);
+  }
+  .neighborhood2 {
+    gap: var(--gap-11xl);
+  }
+  .locality1 {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .about-miraroad {
+    font-size: var(--font-size-lgi);
+  }
+  .neighborhood2 {
+    padding-top: var(--padding-7xl);
+    padding-bottom: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+}

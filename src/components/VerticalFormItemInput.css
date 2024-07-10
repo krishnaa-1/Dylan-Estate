@@ -1,0 +1,108 @@
+.div48,
+.title21 {
+  height: 22px;
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+}
+.title21 {
+  flex: 1;
+  font-weight: 500;
+  min-width: 200px;
+
+}
+.div48 {
+  width: 7px;
+  font-size: var(--body-regular-size);
+  color: var(--dust-red-5);
+  text-align: right;
+}
+.label21 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-631xl) var(--padding-5xs) 0;
+  gap: var(--gap-9xs);
+}
+.placeholder24,
+.placeholder25 {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.placeholder25 {
+  height: 22px;
+  width: 404px;
+  position: relative;
+  line-height: 22px;
+}
+.placeholder24 {
+  flex: 1;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.field2,
+.input13,
+.vertical-form-iteminput8 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.input13 {
+  flex: 1;
+  border-radius: var(--br-11xs);
+  background-color: var(--neutral-1);
+  border: 1px solid var(--neutral-5);
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-2xs);
+  min-height: 96px;
+}
+.field2,
+.vertical-form-iteminput8 {
+  align-self: stretch;
+}
+.field2 {
+  border-radius: var(--br-11xs);
+  background-color: var(--neutral-1);
+  border: 1px solid var(--neutral-5);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-direction: row;
+  font-size: var(--body-regular-size);
+  color: var(--character-disabled-placeholder-25);
+}
+.vertical-form-iteminput8 {
+  flex-direction: column;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--character-title-85);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1000px) {
+  .label21 {
+    padding-right: var(--padding-306xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 725px) {
+  .div48 {
+    width: 100%;
+    height: 7px;
+  }
+  .label21 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .label21 {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

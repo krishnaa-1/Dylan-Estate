@@ -1,0 +1,65 @@
+.frame-icon11 {
+  height: 34px;
+  width: 34px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frame-wrapper6 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-31xl);
+}
+.regular-water-supply {
+  margin-left: -2.5px;
+  width: 140px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.backup-types,
+.frame-parent14 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent14 {
+  flex-direction: column;
+  padding: var(--padding-base) 0;
+  gap: var(--gap-smi);
+}
+.checkbox-child21 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--neutral-1);
+  border: 0.8px solid var(--color-gray-200);
+  box-sizing: border-box;
+  display: none;
+}
+.checkbox23 {
+  height: 26px;
+  width: 26px;
+  position: relative;
+  display: none;
+}
+.amenities-rows {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-23xl);
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--body-regular-size);
+  color: var(--grey-text-2);
+  font-family: var(--font-inter);
+}

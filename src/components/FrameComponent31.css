@@ -1,0 +1,37 @@
+.frame-icon10 {
+  height: 34px;
+  width: 35px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frame-wrapper4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-31xl);
+}
+.cctv-camera1 {
+  position: relative;
+  display: inline-block;
+  min-width: 95px;
+}
+.cctv-camera-container,
+.frame-parent12 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+}
+.frame-parent12 {
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-base) 0;
+  gap: var(--gap-smi);
+  text-align: left;
+  font-size: var(--body-regular-size);
+  color: var(--grey-text-2);
+  font-family: var(--font-inter);
+}

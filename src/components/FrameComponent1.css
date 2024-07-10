@@ -1,0 +1,102 @@
+.title29 {
+  position: relative;
+  line-height: 22px;
+  font-weight: 500;
+}
+.label29 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-5xs);
+  flex-shrink: 0;
+}
+.input-prefix-icon15 {
+  height: 14px;
+  width: 14px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  display: none;
+}
+.placeholder30 {
+  position: relative;
+  line-height: 22px;
+}
+.placeholder29 {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 137px;
+  max-width: 100%;
+}
+.input-suffix-icon15,
+.vector-icon3 {
+  height: 6px;
+  width: 12px;
+  position: relative;
+  object-fit: contain;
+}
+.input-suffix-icon15 {
+  height: 14px;
+  width: 14px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.input16 {
+  flex: 1;
+  border-radius: var(--br-11xs);
+  background-color: var(--neutral-1);
+  border: 1px solid var(--neutral-5);
+  box-sizing: border-box;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-6xs) var(--padding-2xs);
+  gap: var(--gap-9xs);
+}
+.apartment-name1,
+.input16,
+.label-container {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.apartment-name1 {
+  align-self: stretch;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25) inset;
+  border-radius: var(--br-11xs);
+  background-color: var(--neutral-1);
+  border: 1px solid var(--grey-text-2);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  min-height: 42px;
+  flex-shrink: 0;
+  font-size: var(--body-regular-size);
+  color: var(--character-disabled-placeholder-25);
+}
+.label-container {
+  height: 70px;
+  width: 380px;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--main-blue);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 450px) {
+  .input16 {
+    flex-wrap: wrap;
+  }
+  .label-container {
+    height: auto;
+  }
+}
